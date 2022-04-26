@@ -1,0 +1,72 @@
+html {
+    height: 100vh;
+    min-width: 600px;
+    background-image: linear-gradient(130deg, white, purple);
+}
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: cursive;
+}
+h1 {
+    color: gray;
+    justify-content: center;
+}
+.main {
+    padding: 20px;
+}
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+input[type="text"] {
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: gray;
+    flex-grow: 1;
+}
+button{
+    font-size: 1rem;
+    background-color: white;
+    outline: 0;
+    border: none;
+    color: gray;
+}
+button:hover {
+    color: crimson;
+}
+.todoLists {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    height: 100%;
+}
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: gray;
+}
+.clearAll{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.clearAll:hover{
+    color: crimson;
+}
